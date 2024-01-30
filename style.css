@@ -1,0 +1,99 @@
+#loader {
+
+   z-index: 1100;
+
+}
+
+.overlay-image {
+
+    height: 600px;
+    opacity: 0.6;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.carousel-container {
+
+    position: absolute;
+    margin-left: 10%;
+    padding-bottom: 50px;
+    margin-top: -170px;
+ 
+}
+
+#ABOUT_US {
+
+    display: flex;
+
+}
+
+#ABOUT_US img {
+
+    width: 50%;
+
+}
+
+#ABOUT_US_CON {
+
+    margin: 60px;
+    width: 40%; 
+
+}
+
+#ABOUT_US_CON h1 {
+
+    font-size: 60px;
+    color: rgb(0, 3, 153);
+    margin: 0px;
+    
+
+}
+
+
+li {
+
+    margin-bottom: 15px;
+
+}
+
+.service-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 10px;
+    width: calc(50% - 40px);
+    min-width: 300px;
+}
+.service-card h2 {
+    color: blue;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.service-card p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer {
+
+   background: #333333;
+   height: 100%;
+
+}
+
+
+.custom-fixed-bottom {
+
+    bottom: 60px !important;
+
+}
+
+.FT {
+
+    width: 30%;
+    margin: 20px;
+
+}
